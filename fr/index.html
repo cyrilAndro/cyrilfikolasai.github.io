@@ -1,29 +1,155 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>FikolasAI</title>
-  <meta name="description" content="FikolasAI – choose your language">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FikolasAI — Academy ou Agent</title>
+  <meta name="description" content="Deux offres simples : formation IA (Academy) ou co-création d’un agent IA (Agent). Prenez un RDV avec Cyril.">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/style.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 </head>
-<body style="font-family:Arial,sans-serif;text-align:center;padding-top:60px;">
 
-  <h1 style="font-size:28px;font-weight:bold;margin-bottom:12px;">
-    Bienvenue sur FikolasAI 👋
-  </h1>
+<body>
 
-  <p style="font-size:18px;color:#333;margin-bottom:24px;">
-    Choisissez votre langue / Choose your language
-  </p>
+  <div class="container">
 
-  <p style="font-size:20px;">
-    <a href="/fr/" style="margin-right:30px;text-decoration:none;color:#007acc;font-weight:bold;">
-      🇫🇷 Français
-    </a>
-    <a href="/en/" style="text-decoration:none;color:#007acc;font-weight:bold;">
-      🇬🇧 English
-    </a>
-  </p>
+    <!-- 🟩 NAVBAR -->
+    <div class="topbar">
+      <div class="brand">
+        <span class="dot"></span>
+        <span>FikolasAI</span>
+      </div>
+
+      <nav class="seg">
+        <a class="seg-link active" href="#academy">Academy</a>
+        <a class="seg-link" href="#agent">Agent</a>
+      </nav>
+
+      <div class="actions">
+        <div class="lang">
+          <a href="/fr/">FR</a>
+          <a href="/en/">EN</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🟦 HERO -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <h1>Choisis ton accélérateur IA</h1>
+          <p class="lead">
+            Deviens opérationnel avec l’IA — sans blabla.
+            Choisis ton parcours : formation guidée ou agent IA co-créé.
+          </p>
+
+          <div class="proof">
+            <span class="pill">+80 personnes formées en 2025</span>
+            <span class="pill">78 % des organisations utilisent l’IA</span>
+            <span class="pill">≈ 13 h/semaine automatisables</span>
+            <span class="pill">+56 % avantage marché (compétences IA)</span>
+          </div>
+        </div>
+
+        <div class="panel">
+          <strong>2 choix simples :</strong>
+          <ul class="clean">
+            <li>🎓 <strong>FikolasAI Academy</strong> — formation IA actionnable</li>
+            <li>🤖 <strong>FikolasAI Agent</strong> — co-création d’un agent IA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🟨 OFFERS INTRO -->
+    <div class="offer-split">
+      <div class="card" id="academy">
+        <h3>🎓 Academy</h3>
+        <p>Formation IA orientée action — progression visible.</p>
+        <div class="badge">499 € HT / mois</div>
+      </div>
+
+      <div class="card" id="agent">
+        <h3>🤖 Agent</h3>
+        <p>Co-création de ton agent IA métier.</p>
+        <div class="badge">Dès 499 € HT / mois + fee</div>
+      </div>
+    </div>
+
+    <!-- 📌 ACADEMY DÉTAILS -->
+    <section id="academy" class="section">
+      <h2>FikolasAI Academy</h2>
+      <p class="sub">Une formation IA premium orientée action — tu repars chaque semaine avec un livrable.</p>
+
+      <div class="section-grid">
+        <div class="panel">
+          <h4>Ce que tu obtiens</h4>
+          <ul class="clean">
+            <li>1 session hebdo (1 h) avec Cyril</li>
+            <li>Des livrables actionnables</li>
+            <li>Méthode claire et réutilisable</li>
+            <li>Confidentialité & bonnes pratiques</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn primary" href="https://calendly.com/cyril-fikolasai/30min" target="_blank">RDV Academy</a>
+            <a class="btn" href="mailto:cyril.fikolasai@gmail.com">Questions</a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h4>Tarifs</h4>
+          <ul class="clean">
+            <li><strong>499 € HT / mois</strong></li>
+            <li>Orientation résultats</li>
+            <li>Progression visible dès le premier mois</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📌 AGENT DÉTAILS -->
+    <section id="agent" class="section">
+      <h2>FikolasAI Agent</h2>
+      <p class="sub">Co-création d’un agent IA aligné à ton métier.</p>
+
+      <div class="section-grid">
+        <div class="panel">
+          <h4>Démarche</h4>
+          <ul class="clean">
+            <li>Cadrage : objectifs & outputs</li>
+            <li>Prototype rapide + itérations</li>
+            <li>Mise en place & adoption</li>
+            <li>Tests & amélioration continue</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn primary" href="https://calendly.com/cyril-fikolasai/30min" target="_blank">RDV Agent</a>
+            <a class="btn" href="mailto:cyril.fikolasai@gmail.com">Décrire ton besoin</a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h4>Tarifs</h4>
+          <ul class="clean">
+            <li><strong>Dès 499 € HT / mois</strong></li>
+            <li>+ Fee de démarrage selon complexité</li>
+            <li>Exemples : emails, synthèses, tâches récurrentes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📍 FOOTER -->
+    <div class="footer">
+      © <span id="year"></span> FikolasAI — <a href="mailto:cyril.fikolasai@gmail.com">cyril.fikolasai@gmail.com</a>
+    </div>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
