@@ -1,175 +1,153 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FikolasAI — Choose: Academy or Agent</title>
-  <meta name="description" content="Two offers, one goal: real impact with AI. Academy (premium coaching) or Agent (co-building a working AI agent).">
+  <title>FikolasAI — Academy or Agent</title>
+  <meta name="description" content="Two practical offers: Academy (coaching) or Agent (build your own AI agent). Book a call with Cyril.">
 
- <link rel="stylesheet" href="/assets/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/style.css">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="canonical" href="https://cyrilandro.github.io/en/">
 </head>
-
 <body>
+
   <div class="container">
 
-    <div class="topnav">
+    <!-- NAVBAR -->
+    <div class="topbar">
       <div class="brand">
+        <span class="dot"></span>
         <span>FikolasAI</span>
-        <span class="badge">2 offers • 1 focus: results</span>
       </div>
 
-      <div class="navgroup">
-        <div class="pills" aria-label="Choose an offer">
-          <a class="pill offer-pill" href="#academy">Academy</a>
-          <a class="pill offer-pill" href="#agent">Agent</a>
-        </div>
+      <nav class="seg">
+        <a class="seg-link active" href="#academy">Academy</a>
+        <a class="seg-link" href="#agent">Agent</a>
+      </nav>
 
-        <div class="lang" aria-label="Languages">
+      <div class="actions">
+        <div class="lang">
           <a href="/fr/">FR</a>
           <a href="/en/">EN</a>
         </div>
       </div>
     </div>
 
-    <div class="hero">
-      <h1>Pick your AI accelerator.</h1>
-      <p>
-        Move from “trying AI” to “using AI daily”.<br>
-        One offer to become operational fast, one offer to build an AI agent that actually works.
-      </p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <h1>Pick your AI accelerator.</h1>
+          <p class="lead">
+            Move from “trying AI” to “using AI daily”.
+            One offer to become operational fast, one to build an AI agent that actually works.
+          </p>
 
-      <div class="hero-choices">
-        <a class="choice" href="#academy">
-          <div class="title">👉 I want coaching (Academy)</div>
-          <div class="desc">Weekly sessions with Cyril on your real workflows. Clear method, visible progress.</div>
-          <span class="tag">€499 / month (excl. VAT)</span>
-        </a>
+          <div class="proof">
+            <span class="pill">80+ people trained in 2025</span>
+            <span class="pill">78% orgs used AI (2024)</span>
+            <span class="pill">≈ 13h/week “AI-able” tasks</span>
+            <span class="pill">+56% wage premium</span>
+          </div>
+        </div>
 
-        <a class="choice" href="#agent">
-          <div class="title">🤖 I want an agent (Agent)</div>
-          <div class="desc">We co-build your AI agent: framing → iterations → implementation → adoption.</div>
-          <span class="tag">From €499 / month + setup</span>
-        </a>
+        <div class="panel">
+          <strong>Two simple paths:</strong>
+          <ul class="clean">
+            <li>🎓 <strong>FikolasAI Academy</strong> — actionable AI coaching</li>
+            <li>🤖 <strong>FikolasAI Agent</strong> — co-create a working AI agent</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS CARDS -->
+    <div class="offer-split">
+      <div class="card" id="academy">
+        <h3>🎓 Academy</h3>
+        <p>AI coaching with visible progress.</p>
+        <div class="badge">€499 / month</div>
       </div>
 
-      <div class="cta">
-        <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">
-          Book a call (30 min)
-        </a>
-        <a class="button secondary" href="mailto:cyril.fikolasai@gmail.com">
-          Email Cyril
-        </a>
-      </div>
-
-      <div class="proofbar">
-        <div class="proof">80+ people trained in 2025</div>
-        <div class="proof"><a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">78% orgs used AI (2024)</a></div>
-        <div class="proof"><a href="https://www.goto.com/blog/2025-pulse-of-work" target="_blank" rel="noopener">~13h/week “AI-able” tasks</a></div>
-        <div class="proof"><a href="https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html" target="_blank" rel="noopener">+56% wage premium</a></div>
+      <div class="card" id="agent">
+        <h3>🤖 Agent</h3>
+        <p>Co-creation of your tailored AI agent.</p>
+        <div class="badge">From €499 / month + setup</div>
       </div>
     </div>
 
-    <section id="academy" class="offer-section">
-      <div class="offer academy">
-        <div class="offer-glow"></div>
+    <!-- ACADEMY SECTION -->
+    <section id="academy" class="section">
+      <h2>FikolasAI Academy</h2>
+      <p class="sub">Premium AI coaching — each week you leave with something usable.</p>
 
-        <div class="offer-head">
-          <div>
-            <h2 class="offer-title">FikolasAI Academy</h2>
-            <p class="offer-sub">
-              Premium coaching. Every week you leave with something usable (prompts, templates, workflows).
-            </p>
-          </div>
-
-          <div class="pricebox">
-            <p class="price">€499 / month</p>
-            <p class="price-note">1 weekly session (1h) with Cyril</p>
+      <div class="section-grid">
+        <div class="panel">
+          <h4>What you get</h4>
+          <ul class="clean">
+            <li>1 weekly session (1 h) with Cyril</li>
+            <li>Weekly actionable deliverables</li>
+            <li>Clear repeatable method</li>
+            <li>Best practices & guards</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn primary" href="https://calendly.com/cyril-fikolasai/30min" target="_blank">Book Academy</a>
+            <a class="btn" href="mailto:cyril.fikolasai@gmail.com">Questions</a>
           </div>
         </div>
 
-        <div class="grid">
-          <div>
-            <ul class="list">
-              <li><span class="check"></span><span><strong>Real workflows</strong>: emails, summaries, meetings, proposals, reporting, content…</span></li>
-              <li><span class="check"></span><span><strong>Simple method</strong>: repeatable, no jargon.</span></li>
-              <li><span class="check"></span><span><strong>Weekly deliverable</strong>: apply immediately.</span></li>
-              <li><span class="check"></span><span><strong>Guardrails</strong>: confidentiality, best practices, limits.</span></li>
-            </ul>
-
-            <div class="cta">
-              <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">Academy call</a>
-              <a class="button secondary" href="mailto:cyril.fikolasai@gmail.com">Questions</a>
-            </div>
-          </div>
-
-          <div class="mini">
-            <h4>What you get</h4>
-            <p class="quote">“Stop searching. Start executing. See the difference.”</p>
-            <p class="sig">Built for autonomy (not dependency).</p>
-          </div>
+        <div class="panel">
+          <h4>Pricing</h4>
+          <ul class="clean">
+            <li><strong>€499 / month</strong></li>
+            <li>Visible progress from month 1</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="agent" class="offer-section">
-      <div class="offer agent">
-        <div class="offer-glow"></div>
+    <!-- AGENT SECTION -->
+    <section id="agent" class="section">
+      <h2>FikolasAI Agent</h2>
+      <p class="sub">Co-create an AI agent tailored to your workflow.</p>
 
-        <div class="offer-head">
-          <div>
-            <h2 class="offer-title">FikolasAI Agent</h2>
-            <p class="offer-sub">
-              We co-build an AI agent tailored to your job: reliable outputs, real adoption, measurable value.
-            </p>
-          </div>
-
-          <div class="pricebox">
-            <p class="price">From €499 / month</p>
-            <p class="price-note">+ setup fee depending on complexity</p>
+      <div class="section-grid">
+        <div class="panel">
+          <h4>Process</h4>
+          <ul class="clean">
+            <li>Framing: goals & outputs</li>
+            <li>Fast prototype + iterations</li>
+            <li>Implementation & adoption</li>
+            <li>Testing & refinement</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn primary" href="https://calendly.com/cyril-fikolasai/30min" target="_blank">Book Agent</a>
+            <a class="btn" href="mailto:cyril.fikolasai@gmail.com">Describe your need</a>
           </div>
         </div>
 
-        <div class="grid">
-          <div>
-            <ul class="list">
-              <li><span class="check"></span><span><strong>Framing</strong>: goals, inputs/outputs, rules, risk level.</span></li>
-              <li><span class="check"></span><span><strong>Fast prototype</strong>: short iterations + feedback.</span></li>
-              <li><span class="check"></span><span><strong>Implementation</strong>: prompts, templates, light automations if needed.</span></li>
-              <li><span class="check"></span><span><strong>Adoption</strong>: if it’s not used, it’s useless — we fix that.</span></li>
-            </ul>
-
-            <div class="cta">
-              <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">Agent call</a>
-              <a class="button secondary" href="mailto:cyril.fikolasai@gmail.com">Describe your need</a>
-            </div>
-          </div>
-
-          <div class="mini">
-            <h4>Agent examples</h4>
-            <p class="quote">Prospecting • summaries • customer replies • writing • briefs • internal support</p>
-            <p class="sig">You stay in control. The agent does the heavy lifting.</p>
-          </div>
+        <div class="panel">
+          <h4>Pricing</h4>
+          <ul class="clean">
+            <li><strong>From €499 / month + setup</strong></li>
+            <li>Examples: emails, summaries, recurring tasks</li>
+          </ul>
         </div>
       </div>
     </section>
 
+    <!-- FOOTER -->
     <div class="footer">
       © <span id="year"></span> FikolasAI — <a href="mailto:cyril.fikolasai@gmail.com">cyril.fikolasai@gmail.com</a>
     </div>
+
   </div>
 
   <script>
-    function setActivePill(){
-      const hash = location.hash || "#academy";
-      document.querySelectorAll(".offer-pill").forEach(a=>{
-        a.classList.toggle("active", a.getAttribute("href") === hash);
-      });
-    }
-    window.addEventListener("hashchange", setActivePill);
-    setActivePill();
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
+
