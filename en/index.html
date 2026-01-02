@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>FikolasAI — Become operational with AI (no fluff)</title>
-  <meta name="description" content="Premium AI coaching with Cyril (weekly session). Practical, guided, measurable progress. Book a call." />
+  <title>FikolasAI — Choose: Academy or Agent</title>
+  <meta name="description" content="Two offers, one goal: real impact with AI. Academy (premium coaching) or Agent (co-building a working AI agent).">
 
   <link rel="stylesheet" href="/assets/style.css">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -14,21 +14,45 @@
 <body>
   <div class="container">
 
-    <div class="header">
-      <strong>FikolasAI</strong>
-      <div class="lang">
-        <a href="/fr/">FR</a>
-        <a href="/en/">EN</a>
+    <div class="topnav">
+      <div class="brand">
+        <span>FikolasAI</span>
+        <span class="badge">2 offers • 1 focus: results</span>
+      </div>
+
+      <div class="navgroup">
+        <div class="pills" aria-label="Choose an offer">
+          <a class="pill offer-pill" href="#academy">Academy</a>
+          <a class="pill offer-pill" href="#agent">Agent</a>
+        </div>
+
+        <div class="lang" aria-label="Languages">
+          <a href="/fr/">FR</a>
+          <a href="/en/">EN</a>
+        </div>
       </div>
     </div>
 
     <div class="hero">
-      <h1>Less talk.<br>More impact with AI.</h1>
+      <h1>Pick your AI accelerator.</h1>
       <p>
-        You want to learn AI, but not by drowning in random tutorials.
-        Here it’s simple: <strong>one session per week</strong>, on <strong>your real workflows</strong>,
-        with a clear action plan.
+        Move from “trying AI” to “using AI daily”.<br>
+        One offer to become operational fast, one offer to build an AI agent that actually works.
       </p>
+
+      <div class="hero-choices">
+        <a class="choice" href="#academy">
+          <div class="title">👉 I want coaching (Academy)</div>
+          <div class="desc">Weekly sessions with Cyril on your real workflows. Clear method, visible progress.</div>
+          <span class="tag">€499 / month (excl. VAT)</span>
+        </a>
+
+        <a class="choice" href="#agent">
+          <div class="title">🤖 I want an agent (Agent)</div>
+          <div class="desc">We co-build your AI agent: framing → iterations → implementation → adoption.</div>
+          <span class="tag">From €499 / month + setup</span>
+        </a>
+      </div>
 
       <div class="cta">
         <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">
@@ -39,150 +63,112 @@
         </a>
       </div>
 
-      <p style="margin-top:14px;color:var(--muted);font-size:14px;">
-        80+ people trained in 2025 • No jargon • 100% actionable
-      </p>
-    </div>
-
-    <div class="section">
-      <h2>Why now?</h2>
-      <p style="color:var(--muted);margin-top:8px;">
-        AI is already inside organizations. The gap is growing between “quick tests” and becoming truly operational.
-      </p>
-
-      <div class="cards" style="margin-top:14px;">
-        <div class="card">
-          <h3>78% of organizations used AI in 2024</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            Stanford — AI Index 2025.<br>
-            <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">Source</a>
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>~13 hours/week of “AI-able” tasks</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            GoTo — Pulse of Work 2025.<br>
-            <a href="https://www.goto.com/blog/2025-pulse-of-work" target="_blank" rel="noopener">Source</a>
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>AI skills: +56% wage premium</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            PwC — Global AI Jobs Barometer 2025.<br>
-            <a href="https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html" target="_blank" rel="noopener">Source</a>
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>So… what do we do?</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            We turn AI into real habits: practical workflows, tailored to your role, your style, your tools.
-          </p>
-        </div>
+      <div class="proofbar">
+        <div class="proof">80+ people trained in 2025</div>
+        <div class="proof"><a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">78% orgs used AI (2024)</a></div>
+        <div class="proof"><a href="https://www.goto.com/blog/2025-pulse-of-work" target="_blank" rel="noopener">~13h/week “AI-able” tasks</a></div>
+        <div class="proof"><a href="https://www.pwc.com/gx/en/services/ai/ai-jobs-barometer.html" target="_blank" rel="noopener">+56% wage premium</a></div>
       </div>
     </div>
 
-    <div class="section">
-      <h2>How it works</h2>
+    <section id="academy" class="offer-section">
+      <div class="offer academy">
+        <div class="offer-glow"></div>
 
-      <div class="cards" style="margin-top:14px;">
-        <div class="card">
-          <h3>1) Diagnosis</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            Goals, time-wasters, tools, and guardrails (data / confidentiality).
-          </p>
+        <div class="offer-head">
+          <div>
+            <h2 class="offer-title">FikolasAI Academy</h2>
+            <p class="offer-sub">
+              Premium coaching. Every week you leave with something usable (prompts, templates, workflows).
+            </p>
+          </div>
+
+          <div class="pricebox">
+            <p class="price">€499 / month</p>
+            <p class="price-note">1 weekly session (1h) with Cyril</p>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>2) Weekly sprints (1h)</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            Each week: one use case → one method → a mini deliverable (prompt/template/checklist) → you apply.
-          </p>
+        <div class="grid">
+          <div>
+            <ul class="list">
+              <li><span class="check"></span><span><strong>Real workflows</strong>: emails, summaries, meetings, proposals, reporting, content…</span></li>
+              <li><span class="check"></span><span><strong>Simple method</strong>: repeatable, no jargon.</span></li>
+              <li><span class="check"></span><span><strong>Weekly deliverable</strong>: apply immediately.</span></li>
+              <li><span class="check"></span><span><strong>Guardrails</strong>: confidentiality, best practices, limits.</span></li>
+            </ul>
+
+            <div class="cta">
+              <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">Academy call</a>
+              <a class="button secondary" href="mailto:cyril.fikolasai@gmail.com">Questions</a>
+            </div>
+          </div>
+
+          <div class="mini">
+            <h4>What you get</h4>
+            <p class="quote">“Stop searching. Start executing. See the difference.”</p>
+            <p class="sig">Built for autonomy (not dependency).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agent" class="offer-section">
+      <div class="offer agent">
+        <div class="offer-glow"></div>
+
+        <div class="offer-head">
+          <div>
+            <h2 class="offer-title">FikolasAI Agent</h2>
+            <p class="offer-sub">
+              We co-build an AI agent tailored to your job: reliable outputs, real adoption, measurable value.
+            </p>
+          </div>
+
+          <div class="pricebox">
+            <p class="price">From €499 / month</p>
+            <p class="price-note">+ setup fee depending on complexity</p>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>3) System</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            We stabilize: your “signature prompts”, rules, workflows. Goal: autonomy + consistency.
-          </p>
+        <div class="grid">
+          <div>
+            <ul class="list">
+              <li><span class="check"></span><span><strong>Framing</strong>: goals, inputs/outputs, rules, risk level.</span></li>
+              <li><span class="check"></span><span><strong>Fast prototype</strong>: short iterations + feedback.</span></li>
+              <li><span class="check"></span><span><strong>Implementation</strong>: prompts, templates, light automations if needed.</span></li>
+              <li><span class="check"></span><span><strong>Adoption</strong>: if it’s not used, it’s useless — we fix that.</span></li>
+            </ul>
+
+            <div class="cta">
+              <a class="button" href="https://calendly.com/cyril-fikolasai/30min" target="_blank" rel="noopener">Agent call</a>
+              <a class="button secondary" href="mailto:cyril.fikolasai@gmail.com">Describe your need</a>
+            </div>
+          </div>
+
+          <div class="mini">
+            <h4>Agent examples</h4>
+            <p class="quote">Prospecting • summaries • customer replies • writing • briefs • internal support</p>
+            <p class="sig">You stay in control. The agent does the heavy lifting.</p>
+          </div>
         </div>
-
-        <div class="card">
-          <h3>Common use cases</h3>
-          <p style="color:var(--muted);margin:10px 0 0;">
-            Emails & summaries • meetings • proposals • planning • reporting • training materials • content creation.
-          </p>
-        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section cards">
-      <div class="card">
-        <h2>FikolasAI Academy</h2>
-        <p style="color:var(--muted);margin-top:10px;">
-          Premium coaching to become <strong>truly operational</strong> with AI.
-        </p>
-        <div class="price">€499 / month (excl. VAT)</div>
-        <p style="color:var(--muted);margin-top:10px;">
-          <strong>1 weekly session (1h) with Cyril</strong> • real-life use cases • visible progress
-        </p>
-      </div>
-
-      <div class="card">
-        <h2>FikolasAI Agent</h2>
-        <p style="color:var(--muted);margin-top:10px;">
-          We co-create your AI agent (or your “mini-system”) aligned with your processes.
-        </p>
-        <div class="price">From €499 / month</div>
-        <p style="color:var(--muted);margin-top:10px;">
-          + setup fee depending on complexity • goal: automate / assist / increase reliability
-        </p>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Quick FAQ</h2>
-
-      <div class="cards" style="margin-top:14px;">
-        <details class="card" open>
-          <summary style="cursor:pointer;font-weight:800;">Who is it for?</summary>
-          <p style="color:var(--muted);margin-top:10px;">
-            Professionals, managers, founders, teams — if you want to move from “trying” to “using”, it fits.
-          </p>
-        </details>
-
-        <details class="card">
-          <summary style="cursor:pointer;font-weight:800;">I’m not technical — is it OK?</summary>
-          <p style="color:var(--muted);margin-top:10px;">
-            Yes. We build strong fundamentals, with simple habits. No tech background required.
-          </p>
-        </details>
-
-        <details class="card">
-          <summary style="cursor:pointer;font-weight:800;">Confidentiality?</summary>
-          <p style="color:var(--muted);margin-top:10px;">
-            We set clear rules (data, tools, best practices). Efficiency without unnecessary risks.
-          </p>
-        </details>
-
-        <details class="card">
-          <summary style="cursor:pointer;font-weight:800;">Can I stop anytime?</summary>
-          <p style="color:var(--muted);margin-top:10px;">
-            Yes. Monthly approach. Keep it healthy and genuinely useful.
-          </p>
-        </details>
-      </div>
-    </div>
-
-    <footer>
+    <div class="footer">
       © <span id="year"></span> FikolasAI — <a href="mailto:cyril.fikolasai@gmail.com">cyril.fikolasai@gmail.com</a>
-    </footer>
-
+    </div>
   </div>
 
   <script>
+    function setActivePill(){
+      const hash = location.hash || "#academy";
+      document.querySelectorAll(".offer-pill").forEach(a=>{
+        a.classList.toggle("active", a.getAttribute("href") === hash);
+      });
+    }
+    window.addEventListener("hashchange", setActivePill);
+    setActivePill();
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
